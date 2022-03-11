@@ -10,6 +10,7 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Experts from './Pages/Home/Experts/Experts';
 import Footer from './Pages/Shared/Footer/Footer';
 import AlanAI from './Pages/Shared/AlanAI/AlanAI';
+import AddService from './Pages/AddService/AddService';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>
+            <Route path="/addService">
+              <AddService></AddService>
+            </Route>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

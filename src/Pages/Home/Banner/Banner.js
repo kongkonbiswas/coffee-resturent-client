@@ -15,8 +15,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className='bg-primary'>WELCOME TO MY COFFEE RESTURENT</h3>
+                        <p className='bg-success'>SEARCH FOR WHAT YOU WANT !</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,8 +27,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className='bg-primary'>WE ARE WAITING FOR YOUR STEP...</h3>
+                        <p className='bg-success' >THE FUTURE IS ROLLING</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className='bg-primary'>IMAGINING ABOVE EVERYTHING</h3>
+                        <p className='bg-success'>STAY WITH US.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
