@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <section className="news">
       <div className="container">
-        <h1 className="mb-3 text-center">My Google Map.</h1>
+        <h1 className="mb-3 text-center">Resturent Location in Google Map.</h1>
         <div className="row mt-5" style={{ display: "flex"}}>
           <div>
             <h3>February 08, 2022</h3>
