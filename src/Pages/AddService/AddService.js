@@ -9,7 +9,7 @@ const AddService = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:8000/services', data)
+        axios.post('https://hidden-plateau-00683.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');
