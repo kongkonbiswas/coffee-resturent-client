@@ -1,7 +1,7 @@
 import alanBtn from "@alan-ai/alan-sdk-web";
 import React, { useEffect } from "react";
 
-const alanKey = '1eec7d2b946eac4abc00aabb130c988c2e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey = process.env.local.ALAN_AI_KEY;
 
 const AlanAI = () => {
     useEffect(() => {
